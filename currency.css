@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@700&family=Big+Shoulders+Display&family=Fugaz+One&family=Grape+Nuts&family=Inter:wght@300;700&family=Josefin+Sans:wght@300;400;600&family=Kaushan+Script&family=Kdam+Thmor+Pro&family=Kumar+One+Outline&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Licorice&family=Lobster&family=Macondo&family=Manrope:wght@500&family=Oswald&family=Outfit:wght@300;400;600&family=Overpass&family=Pacifico&family=Permanent+Marker&family=Righteous&display=swap');
+#box {
+    height: 50rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arima";
+}
+#con {
+    height: 400px;
+    width: 400px;
+    background-color: paleturquoise;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 10px 10px #888888;
+    padding: 10px;
+    border-radius: 5%;
+    text-align: center;
+
+}
+form {
+    align-items: center;
+}
+h1 {
+    text-transform: capitalize;
+}
+input {
+    height: 25px;
+}
+button {
+    border-radius: 2px;
+    height: 30px;
+    width: 60px;
+border: 1px solid;
+  box-shadow: 5px 5px #888888;
+  border-radius: 20px;
+  
+}
+.buttons {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
